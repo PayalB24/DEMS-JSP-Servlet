@@ -11,20 +11,20 @@ Server: Apache Tomcat
 pgsql
 Copy
 Edit
-DEMS-HTML-Servlet/
-│── src/
-│   ├── com.dems.servlet/       # Java Servlet files
-│   ├── com.dems.dao/           # Database Access Layer
-│   ├── com.dems.model/         # Data Models
-│── webapp/
-│   ├── index.html              # Landing Page
-│   ├── styles.css              # Stylesheet
-│   ├── script.js               # Client-side JavaScript
-│   ├── WEB-INF/
-│       ├── web.xml             # Servlet Configuration
-│── database/
-│   ├── dem_schema.sql          # SQL Schema
-│── README.md
+DEMS-HTML-Servlet/<br>
+│── src/<br>
+│   ├── com.dems.servlet/       # Java Servlet files<br>
+│   ├── com.dems.dao/           # Database Access Layer<br>
+│   ├── com.dems.model/         # Data Models<br>
+│── webapp/<br>
+│   ├── index.html              # Landing Page<br>
+│   ├── styles.css              # Stylesheet<br>
+│   ├── script.js               # Client-side JavaScript<br>
+│   ├── WEB-INF/<br>
+│       ├── web.xml             # Servlet Configuration<br>
+│── database/<br>
+│   ├── dem_schema.sql          # SQL Schema<br>
+│── README.md<br>
 🚀 <h3>Features</h3>
 ✔️ User authentication (Login & Signup)
 ✔️ Upload and store digital evidence
