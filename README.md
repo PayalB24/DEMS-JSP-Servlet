@@ -25,8 +25,8 @@ DEMS-HTML-Servlet/<br>
 │── database/<br>
 │   ├── dem_schema.sql          # SQL Schema<br>
 │── README.md<br>
-🚀 <h3>Features</h3>
-✔️ User authentication (Login & Signup)
-✔️ Upload and store digital evidence
-✔️ Secure access for authorized personnel
+🚀 <h3>Features</h3><br>
+✔️ User authentication (Login & Signup)<br>
+✔️ Upload and store digital evidence<br>
+✔️ Secure access for authorized personnel<br>
 ✔️ Audit trail for tracking modifications
