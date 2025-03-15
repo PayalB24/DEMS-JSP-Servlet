@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+    background: url('../Images/hero.jpg') no-repeat center center/cover; 
+    background-size: cover; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.navbar {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    color: #ffcc00; 
+}
+
+.navbar-title {
+    color: white;
+    font-size: 13px;
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    cursor: default;
+}
+
+.navbar-subtitle {
+    color: #d3d3d3; 
+    font-size: 10px; 
+    font-style: italic; 
+    cursor: default;
+}
+
+.logo {
+    width: 50px;  
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #000;
+}
+
+
+.hero {
+    height: 60vh; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero .btn {
+    background-color: rgba(255, 204, 0, 0.4);
+    color: black;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px; 
+    left: 1px;   
+    z-index: 1;
+}
+
+.hero .btn:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+.second-section {
+    padding: 70px 20px;
+    background-color: #f4f4f4;
+    text-align: left; 
+}
+
+.second-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.second-section p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.second-section ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
+.second-section ul li {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.second-section .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .second-section .row {
+        text-align: center;
+    }
+
+    .second-section .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
+
+
+.container-fluid.bg-dark {
+  background-color: #343a40; 
+  padding: 20px 0;
+}
+
+

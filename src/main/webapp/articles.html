@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .article-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .article-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .article-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .article-card .card-body {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center my-5">Latest Articles</h1>
+
+        <div class="article-container">
+            <!-- Article 1 -->
+            <div class="article-card">
+                <a href="https://indianexpress.com/article/cities/mumbai/elderly-man-mumbai-digital-arrest-scam-cbi-officers-9720840/" target="_blank">
+                    <img src="https://images.indianexpress.com/2024/11/Cyber-Crime.jpeg?w=640" alt="Article 1">
+                </a>
+                <div class="card-body">
+                    <h5>Article Title 1</h5>
+                    <p>Short description of the article goes here...</p>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="article-card">
+                <a href="https://www.example2.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Article 2">
+                </a>
+                <div class="card-body">
+                    <h5>Article Title 2</h5>
+                    <p>Short description of the article goes here...</p>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="article-card">
+                <a href="https://www.example3.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Article 3">
+                </a>
+                <div class="card-body">
+                    <h5>Article Title 3</h5>
+                    <p>Short description of the article goes here...</p>
+                </div>
+            </div>
+
+            <!-- Add more articles as needed -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
